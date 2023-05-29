@@ -1,0 +1,22 @@
+#PAYMENT METHODS 
+
+-- CRYPTO PAYMENT
+*https://t.me/CryptoBot >> /start >> Crypto pay >> Create App >> [Api Token]
+
+Then copy it and paste it in config.py >> CRYPTO_API_KEY = 'your api key'
+
+-- CARD PAYMENT
+*https://t.me/BotFather >> /start >> /mybots >> Your bot >> Payments >> Select any Payment provider and  Connect with live and get your [api key] 
+
+Then copy it and paste it in config.py >> payment_token = 'your api key'
+
+#BOT SETTINGS
+
+-- locales >> en.yml
+
+bot_token : "" # Your bot token get it from @BotFather
+api_id : # Your api id get it from https://my.telegram.org/auth
+api_hash : # Your api_hash get it from https://my.telegram.org/auth
+api_key : # Your Openai api key
+database_url : #mongo database uri : python : 3.6 or later
+bot_owners:[1467358214,your id] # Your telegram id get it from https://t.me/MissRose_bot sending /id
